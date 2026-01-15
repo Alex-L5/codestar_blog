@@ -88,14 +88,14 @@ DATABASES = {
     }
 }
 
- DATABASES = {
-     'default': dj_database_url.parse(os.environ.get("postgresql://neondb_owner:npg_QjkF5XfI3ZHv@ep-dry-king-agkcuitw.c-2.eu-central-1.aws.neon.tech/art_array_halt_341774URL"))
- }
+ # DATABASES = {
+     # 'default': dj_database_url.parse(os.environ.get("postgresql://neondb_owner:npg_QjkF5XfI3ZHv@ep-dry-king-agkcuitw.c-2.eu-central-1.aws.neon.tech/art_array_halt_341774URL"))
+ # }
 
- CSRF_TRUSTED_ORIGINS = [
-     "https://*.codeinstitute-ide.net/",
-     "https://*.herokuapp.com"
- ]                                               # added on for base template ....
+ # CSRF_TRUSTED_ORIGINS = [
+     # "https://*.codeinstitute-ide.net/",
+     # "https://*.herokuapp.com"
+ # ]                                               # added on for base template ....
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
