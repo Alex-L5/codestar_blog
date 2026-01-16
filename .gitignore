@@ -1,5 +1,5 @@
-# .venv/
-# env.py
+.venv/
+env.py
 core.Microsoft*
 core.mongo*
 core.python*
@@ -10,4 +10,4 @@ node_modules/
 .github/
 cloudinary_python.txt
 .venv
-# blog/fixtures/
+blog/fixtures/
