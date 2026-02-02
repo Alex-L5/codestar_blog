@@ -17,10 +17,10 @@ class Post(models.Model):
     updated_on = models.DateTimeField(auto_now=True)
 
     class Meta:
-        ordering = ["-created_on"]
+        ordering = ["-created_on"]  # - means displayed in descending order of creation date, ? means randomised, none means ascending.
     
     def __str__(self):
-        return f"{self.title} | written by {self.author}"
+        return f"{self.title} | written by {self.author}"  # f"The title of this post is {self.title}"
 
 
 class Comment(models.Model):
