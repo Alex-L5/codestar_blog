@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block content %}
+{% block content %}  <!-- {% %}, is what we call a tag. Tags are more complex than variables -->
 
 <!-- index.html content starts here -->
 <div class="container-fluid">
@@ -15,13 +15,13 @@
                         <div class="card-body">
                             <div class="image-container">
                                 <div class="image-flash">
-                                    <p class="author">Author: {{ post.author }}</p>
+                                    <p class="author">Author: {{ post.author }}</p>  <!-- {{ }} indicates a variable -->
                                 </div>
                             </div>
                             <a href="#" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
                             </a>
-
+                            <p class="card-text">{{ post.excerpt }}</p>
                             <hr />
                             <p class="card-text text-muted h6">{{ post.created_on}}
                             </p>
